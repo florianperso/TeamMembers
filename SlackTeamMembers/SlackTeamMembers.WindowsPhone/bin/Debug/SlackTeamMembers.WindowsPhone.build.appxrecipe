@@ -21,6 +21,30 @@
     <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.exe">
       <PackagePath>SlackTeamMembers.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.exe.config">
+      <PackagePath>SlackTeamMembers.WindowsPhone.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Bcl.Async.1.0.168\lib\wpa81\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Bcl.Async.1.0.168\lib\wpa81\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\PortableRest.3.0.1\lib\portable-net45+sl5+wp8+win8+wpa81+MonoTouch1+MonoAndroid1\PortableRest.dll">
+      <PackagePath>PortableRest.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.dll">
+      <PackagePath>SlackTeamMembers.Service.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Net.Http.2.2.22\lib\wpa81\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Net.Http.2.2.22\lib\wpa81\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

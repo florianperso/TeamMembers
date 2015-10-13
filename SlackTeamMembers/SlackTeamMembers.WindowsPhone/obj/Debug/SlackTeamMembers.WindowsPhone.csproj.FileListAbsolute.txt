@@ -1,3 +1,4 @@
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.exe.config
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\App.xbf
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\MainPage.xbf
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.xr.xml
@@ -6,6 +7,22 @@ c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackT
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\resources.pri
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\AppxManifest.xml
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.build.appxrecipe
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Microsoft.Threading.Tasks.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Newtonsoft.Json.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\PortableRest.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.Service.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.Service.pdb
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.Service.pri
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Microsoft.Threading.Tasks.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Newtonsoft.Json.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\PortableRest.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\SlackTeamMembers.WindowsPhone.csprojResolveAssemblyReference.cache
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\App.g.i.cs
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\App.g.cs
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\MainPage.g.i.cs
@@ -18,6 +35,7 @@ c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackT
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\SlackTeamMembers.WindowsPhone.exe
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\SlackTeamMembers.WindowsPhone.pdb
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\SlackTeamMembers.WindowsPhone.csproj.GenerateResource.Cache
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\priconfig.xml
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\priconfig.xml.intermediate
 c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\layout.resfiles
