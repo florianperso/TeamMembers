@@ -79,6 +79,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="app.config" />
     <None Include="SlackTeamMembers.Tests_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
