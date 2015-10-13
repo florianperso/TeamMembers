@@ -1,0 +1,1 @@
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\SlackTeamMembers.WindowsPhone.csproj;neutral

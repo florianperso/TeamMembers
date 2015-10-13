@@ -1,0 +1,17 @@
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.pdb
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.pri
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\SlackTeamMembers.Service.csprojResolveAssemblyReference.cache
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\SlackTeamMembers.Service.dll
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\SlackTeamMembers.Service.pdb
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\priconfig.xml
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\priconfig.xml.intermediate
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\layout.resfiles
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\layout.resfiles.intermediate
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\resources.resfiles
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\resources.resfiles.intermediate
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\pri.resfiles
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\pri.resfiles.intermediate
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\qualifiers.txt
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\qualifiers.txt.intermediate
+c:\users\florian\documents\visual studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\obj\Debug\MultipleQualifiersPerDimensionFound.txt
