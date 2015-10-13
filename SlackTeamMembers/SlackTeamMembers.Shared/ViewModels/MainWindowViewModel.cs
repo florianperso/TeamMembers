@@ -16,15 +16,6 @@ namespace SlackTeamMembers.ViewModels
 
         #endregion
 
-        #region Constructor
-
-        public MainWindowViewModel(ITeamModule teamModule)
-        {
-            _teamModule = teamModule;
-        }
-
-        #endregion
-
         #region Properties
 
         public ObservableCollection<TeamMember> TeamMembers
@@ -37,6 +28,15 @@ namespace SlackTeamMembers.ViewModels
 
                 OnPropertyChanged();
             }
+        }
+
+        #endregion
+
+        #region Constructor
+
+        public MainWindowViewModel(ITeamModule teamModule)
+        {
+            _teamModule = teamModule;
         }
 
         #endregion
