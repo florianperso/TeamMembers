@@ -17,10 +17,11 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Border>
+        <Grid>
+            <Image HorizontalAlignment="Left" Margin="12,3" Source="Assets/Logo.png"></Image>
             <TextBlock Style="{StaticResource TextBlock.App.Title.Style}"
                        Text="SLACK TEAM MEMBERS" />
-        </Border>
+        </Grid>
 
         <Border Grid.Row="1"
                 Background="{StaticResource Slack.Background.Light}">

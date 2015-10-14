@@ -38,6 +38,13 @@ namespace SlackTeamMembers
             _navigationHelper = new NavigationHelper(this);
             _navigationHelper.LoadState += NavigationHelper_LoadState;
             _navigationHelper.SaveState += NavigationHelper_SaveState;
+
+            Loaded += ProfileDetails_Loaded;
+        }
+
+        private void ProfileDetails_Loaded(object sender, RoutedEventArgs e)
+        {
+            SbIntro.Begin();
         }
 
         #endregion

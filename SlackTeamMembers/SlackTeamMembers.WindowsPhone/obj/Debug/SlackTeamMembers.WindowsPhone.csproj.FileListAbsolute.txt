@@ -71,3 +71,4 @@ C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackT
 C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\obj\Debug\Styles\Converters.xbf
