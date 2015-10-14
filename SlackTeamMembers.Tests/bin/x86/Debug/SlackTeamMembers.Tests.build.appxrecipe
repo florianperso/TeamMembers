@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INSTAPLYSURFACE</Machine>
+    <WindowsUser>florian</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>9074e8e7-1156-47b9-a8cd-a441d482f977</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\bin\x86\Debug\SlackTeamMembers.Tests.dll">
+      <PackagePath>SlackTeamMembers.Tests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.dll">
+      <PackagePath>SlackTeamMembers.Service.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\bin\x86\Debug\SlackTeamMembers.Tests.pdb">
+      <PackagePath>SlackTeamMembers.Tests.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\SlackTeamMembers.Service.pdb">
+      <PackagePath>SlackTeamMembers.Service.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.pdb">
+      <PackagePath>SlackTeamMembers.WindowsPhone.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Common.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\MSTestFramework\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\PortableRest.dll">
+      <PackagePath>PortableRest.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Service\bin\Debug\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wpa81\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Net.Http.2.2.22\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\packages\Microsoft.Net.Http.2.2.22\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.exe">
+      <PackagePath>SlackTeamMembers.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSPhoneAdapter.Target.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\x86\vstest.executionengine.WindowsPhone.dll">
+      <PackagePath>vstest.executionengine.WindowsPhone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\x86\vstest_executionengine_platformbridge.dll">
+      <PackagePath>vstest_executionengine_platformbridge.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\vstest_executionengine_platformbridge.winmd">
+      <PackagePath>vstest_executionengine_platformbridge.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.exe.config">
+      <PackagePath>SlackTeamMembers.WindowsPhone.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\SlackTeamMembers.WindowsPhone.xr.xml">
+      <PackagePath>SlackTeamMembers.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\Brushes.xbf">
+      <PackagePath>Styles\Brushes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\Converters.xbf">
+      <PackagePath>Styles\Converters.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\DefaultStylesOverride.xbf">
+      <PackagePath>Styles\DefaultStylesOverride.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\NamedControlStyles.xbf">
+      <PackagePath>Styles\NamedControlStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\ProfileDetails.xbf">
+      <PackagePath>ProfileDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers.Tests\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,32 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
+﻿using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+using Newtonsoft.Json;
+using SlackTeamMembers.Common;
+using SlackTeamMembers.Service.Models;
+using SlackTeamMembers.Service.Modules;
+using SlackTeamMembers.ViewModels;
 
 namespace SlackTeamMembers
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class MainPage
     {
+        #region Fields
+
+        private readonly NavigationHelper _navigationHelper;
+
+        #endregion
+
+        #region Constructor
+
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+            NavigationCacheMode = NavigationCacheMode.Required;
+            _navigationHelper = new NavigationHelper(this);
+            _navigationHelper.LoadState += NavigationHelper_LoadState;
+            _navigationHelper.SaveState += NavigationHelper_SaveState;
+        }
 
-            this.NavigationCacheMode = NavigationCacheMode.Required;
+        #endregion
+
+        #region Navigation
+
+        private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e)
+        {
+            e.PageState["mainDc"] = JsonConvert.SerializeObject(DataContext);
+        }
+
+        private void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        {
+            if (e.PageState != null)
+                DataContext = JsonConvert.DeserializeObject<MainWindowViewModel>(e.PageState["mainDc"].ToString());
+            else
+                DataContext = new MainWindowViewModel(new TeamModule());
+
+            RequestLoadMembers();
         }
 
         /// <summary>
@@ -36,13 +54,47 @@ namespace SlackTeamMembers
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            // TODO: Prepare page for display here.
+            _navigationHelper.OnNavigatedTo(e);
 
-            // TODO: If your application contains multiple pages, ensure that you are
-            // handling the hardware Back button by registering for the
-            // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
-            // If you are using the NavigationHelper provided by some templates,
-            // this event is handled for you.
+            if (e.NavigationMode == NavigationMode.New)
+            {
+                DataContext = new MainWindowViewModel(new TeamModule());
+
+                RequestLoadMembers();
+            }
         }
+
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            _navigationHelper.OnNavigatedFrom(e);
+
+            base.OnNavigatedFrom(e);
+        }
+
+        #endregion
+
+        #region Methods
+
+        private void RequestLoadMembers()
+        {
+            if (DataContext != null)
+                ((MainWindowViewModel)DataContext).LoadMembers();
+        }
+
+        private void TeamMember_OnTapped(object sender, TappedRoutedEventArgs e)
+        {
+            if (sender == null)
+                return;
+
+            Grid grid = sender as Grid;
+
+            TeamMember member = grid?.DataContext as TeamMember;
+            if (member == null)
+                return;
+
+            Frame.Navigate(typeof(ProfileDetails), JsonConvert.SerializeObject(member));
+        }
+
+        #endregion
     }
 }

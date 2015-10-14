@@ -1,0 +1,11 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="Slack.Background.Dark"
+                     Color="#40313B" />
+
+    <SolidColorBrush x:Key="Slack.Background.Light"
+                     Color="#4F3A4A" />
+
+</ResourceDictionary>

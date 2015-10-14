@@ -5,10 +5,61 @@
     xmlns:local="using:SlackTeamMembers"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:SlackTeamMembers.ViewModels"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+      Background="{StaticResource Slack.Background.Dark}"
+      d:DataContext="{d:DesignInstance viewModels:MainWindowViewModel}">
+
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
+        <Grid>
+            <Image HorizontalAlignment="Left" Margin="12,3" Source="Assets/Logo.png"></Image>
+            <TextBlock Style="{StaticResource TextBlock.App.Title.Style}"
+                       Text="SLACK TEAM MEMBERS" />
+        </Grid>
+
+        <Border Grid.Row="1"
+                Background="{StaticResource Slack.Background.Light}">
+            <ListView ItemsSource="{Binding TeamMembers}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Style="{StaticResource Grid.ListViewItem.Wrapper.Style}" Tapped="TeamMember_OnTapped">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Rectangle Style="{StaticResource Rectangle.User.Icon.Small.Style}">
+                                <Rectangle.Fill>
+                                    <ImageBrush ImageSource="{Binding Profile.ImageSmallUrl}" />
+                                </Rectangle.Fill>
+                            </Rectangle>
+
+                            <StackPanel Grid.Column="1"
+                                        Style="{StaticResource StackPanel.Display.UserInfo.Aside.Style}">
+                                <TextBlock Style="{StaticResource TextBlock.Display.UserInfo.Aside.Name.Style}"
+                                           Text="{Binding Name}" />
+                                <TextBlock Style="{StaticResource TextBlock.Display.UserInfo.Aside.Title.Style}"
+                                           Text="{Binding Profile.Title}" />
+                            </StackPanel>
+
+                            <Border Grid.Row="1"
+                                    Grid.ColumnSpan="2"
+                                    Style="{StaticResource Border.Separator.Horizontal.Style}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
     </Grid>
 </Page>
