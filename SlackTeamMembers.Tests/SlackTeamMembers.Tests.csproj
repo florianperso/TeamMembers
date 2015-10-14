@@ -73,6 +73,9 @@
     <SDKReference Include="TestPlatform, Version=14.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\BooleanToVisibilityConverterTests.cs" />
+    <Compile Include="Converters\GetForegroundFromProfileColorStringConverterTests.cs" />
+    <Compile Include="Converters\InvertBooleanToVisibilityConverterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainWindowViewModelTests.cs" />
   </ItemGroup>

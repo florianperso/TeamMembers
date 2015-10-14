@@ -6,6 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Converters.xaml" />
                 <ResourceDictionary Source="Styles/Brushes.xaml" />
                 <ResourceDictionary Source="Styles/DefaultStylesOverride.xaml" />
                 <ResourceDictionary Source="Styles/NamedControlStyles.xaml" />

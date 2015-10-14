@@ -6,7 +6,9 @@ Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
 App.xbf
 MainPage.xbf
+ProfileDetails.xbf
 SlackTeamMembers.WindowsPhone.xr.xml
 Styles\Brushes.xbf
+Styles\Converters.xbf
 Styles\DefaultStylesOverride.xbf
 Styles\NamedControlStyles.xbf

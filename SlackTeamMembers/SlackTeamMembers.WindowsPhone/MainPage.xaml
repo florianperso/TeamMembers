@@ -27,7 +27,7 @@
             <ListView ItemsSource="{Binding TeamMembers}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Grid Style="{StaticResource Grid.ListViewItem.Wrapper.Style}">
+                        <Grid Style="{StaticResource Grid.ListViewItem.Wrapper.Style}" Tapped="TeamMember_OnTapped">
 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto" />

@@ -27,6 +27,15 @@
         <Setter Property="RadiusX" Value="4" />
     </Style>
 
+    <Style x:Key="Rectangle.User.Icon.Large.Style"
+           TargetType="Rectangle">
+        <Setter Property="Height" Value="100" />
+        <Setter Property="Width" Value="100" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="RadiusY" Value="4" />
+        <Setter Property="RadiusX" Value="4" />
+    </Style>
+
     <Style x:Key="StackPanel.Display.UserInfo.Aside.Style"
            TargetType="StackPanel">
         <Setter Property="Margin" Value="12,0" />
@@ -51,6 +60,76 @@
         <Setter Property="Height" Value="1" />
         <Setter Property="Margin" Value="0,12,0,0" />
         <Setter Property="Background" Value="{StaticResource Slack.Background.Dark}" />
+    </Style>
+
+    <Style x:Key="StackPanel.Display.UserInfo.Below.Style"
+           TargetType="StackPanel">
+        <Setter Property="Margin" Value="12" />
+        <Setter Property="VerticalAlignment" Value="center" />
+    </Style>
+
+    <Style x:Key="TextBlock.Display.UserInfo.Below.Name.Style"
+           TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource TextStyleExtraLargeFontSize}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="FontWeight" Value="Bold" />
+    </Style>
+
+    <Style x:Key="TextBlock.Display.UserInfo.Below.NormalizedName.Style"
+           TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource TextStyleLargeFontSize}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="TextBlock.Display.UserInfo.Below.Title.Style"
+           TargetType="TextBlock">
+        <Setter Property="Opacity" Value="0.7" />
+        <Setter Property="FontSize" Value="{StaticResource TextStyleMediumFontSize}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="Border.Header.Tall.Style"
+           TargetType="Border">
+        <Setter Property="MinHeight" Value="150" />
+    </Style>
+
+    <Style x:Key="Grid.Header.Tall.Content.Style"
+           TargetType="Grid">
+        <Setter Property="Margin" Value="12,36,12,12" />
+    </Style>
+
+    <Style x:Key="Border.User.Rights.Icon.Container.Style"
+           TargetType="Border">
+        <Setter Property="Width" Value="36" />
+        <Setter Property="Height" Value="36" />
+        <Setter Property="Background" Value="#90FFFFFF" />
+        <Setter Property="BorderBrush" Value="{StaticResource Slack.Background.Dark}" />
+        <Setter Property="BorderThickness" Value="1" />
+    </Style>
+
+    <Style x:Key="Path.User.Rights.Icon.Style.Base"
+           TargetType="Path">
+        <Setter Property="Width" Value="16" />
+        <Setter Property="Height" Value="16" />
+        <Setter Property="Margin" Value="0,0,0,0" />
+        <Setter Property="Stretch" Value="Uniform" />
+    </Style>
+
+    <Style x:Key="Path.User.Rights.Icon.Valid.Style"
+           TargetType="Path" BasedOn="{StaticResource Path.User.Rights.Icon.Style.Base}">
+        <Setter Property="Fill" Value="Green" />
+    </Style>
+
+    <Style x:Key="Path.User.Rights.Icon.Invalid.Style"
+           TargetType="Path" BasedOn="{StaticResource Path.User.Rights.Icon.Style.Base}">
+        <Setter Property="Fill" Value="#FFDA2020" />
+    </Style>
+
+    <Style x:Key="TextBlock.User.Rights.Title.Style"
+           TargetType="TextBlock">
+        <Setter Property="Margin" Value="12,6" />
+        <Setter Property="FontSize" Value="{StaticResource TextStyleMediumFontSize}" />
+        <Setter Property="Foreground" Value="White" />
     </Style>
     
 </ResourceDictionary>

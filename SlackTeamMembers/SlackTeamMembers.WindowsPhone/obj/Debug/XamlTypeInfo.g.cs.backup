@@ -124,15 +124,27 @@ namespace SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "SlackTeamMembers.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "SlackTeamMembers.ProfileDetails";
+            _typeNameTable[4] = "SlackTeamMembers.Converters.ColorStringToColorConverter";
+            _typeNameTable[5] = "Object";
+            _typeNameTable[6] = "SlackTeamMembers.Converters.GetForegroundFromProfileColorStringConverter";
+            _typeNameTable[7] = "SlackTeamMembers.Converters.BooleanToVisibilityConverter";
+            _typeNameTable[8] = "SlackTeamMembers.Converters.InvertedBooleanToVisibilityConverter";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::SlackTeamMembers.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::SlackTeamMembers.ProfileDetails);
+            _typeTable[4] = typeof(global::SlackTeamMembers.Converters.ColorStringToColorConverter);
+            _typeTable[5] = typeof(global::System.Object);
+            _typeTable[6] = typeof(global::SlackTeamMembers.Converters.GetForegroundFromProfileColorStringConverter);
+            _typeTable[7] = typeof(global::SlackTeamMembers.Converters.BooleanToVisibilityConverter);
+            _typeTable[8] = typeof(global::SlackTeamMembers.Converters.InvertedBooleanToVisibilityConverter);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -168,6 +180,11 @@ namespace SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::SlackTeamMembers.MainPage(); }
+        private object Activate_3_ProfileDetails() { return new global::SlackTeamMembers.ProfileDetails(); }
+        private object Activate_4_ColorStringToColorConverter() { return new global::SlackTeamMembers.Converters.ColorStringToColorConverter(); }
+        private object Activate_6_GetForegroundFromProfileColorStringConverter() { return new global::SlackTeamMembers.Converters.GetForegroundFromProfileColorStringConverter(); }
+        private object Activate_7_BooleanToVisibilityConverter() { return new global::SlackTeamMembers.Converters.BooleanToVisibilityConverter(); }
+        private object Activate_8_InvertedBooleanToVisibilityConverter() { return new global::SlackTeamMembers.Converters.InvertedBooleanToVisibilityConverter(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -192,6 +209,45 @@ namespace SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  SlackTeamMembers.ProfileDetails
+                userType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_ProfileDetails;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  SlackTeamMembers.Converters.ColorStringToColorConverter
+                userType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_4_ColorStringToColorConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  Object
+                xamlType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  SlackTeamMembers.Converters.GetForegroundFromProfileColorStringConverter
+                userType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_6_GetForegroundFromProfileColorStringConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  SlackTeamMembers.Converters.BooleanToVisibilityConverter
+                userType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_7_BooleanToVisibilityConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  SlackTeamMembers.Converters.InvertedBooleanToVisibilityConverter
+                userType = new global::SlackTeamMembers.SlackTeamMembers_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_8_InvertedBooleanToVisibilityConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

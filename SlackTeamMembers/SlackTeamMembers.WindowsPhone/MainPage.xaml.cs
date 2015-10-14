@@ -1,6 +1,9 @@
-﻿using Windows.UI.Xaml.Navigation;
+﻿using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Navigation;
 using Newtonsoft.Json;
 using SlackTeamMembers.Common;
+using SlackTeamMembers.Service.Models;
 using SlackTeamMembers.Service.Modules;
 using SlackTeamMembers.ViewModels;
 
@@ -76,6 +79,20 @@ namespace SlackTeamMembers
         {
             if (DataContext != null)
                 ((MainWindowViewModel)DataContext).LoadMembers();
+        }
+
+        private void TeamMember_OnTapped(object sender, TappedRoutedEventArgs e)
+        {
+            if (sender == null)
+                return;
+
+            Grid grid = sender as Grid;
+
+            TeamMember member = grid?.DataContext as TeamMember;
+            if (member == null)
+                return;
+
+            Frame.Navigate(typeof(ProfileDetails), JsonConvert.SerializeObject(member));
         }
 
         #endregion

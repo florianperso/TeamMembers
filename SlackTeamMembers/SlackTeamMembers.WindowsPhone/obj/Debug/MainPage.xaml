@@ -27,7 +27,7 @@
             <ListView ItemsSource="{Binding TeamMembers}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Grid Style="{StaticResource Grid.ListViewItem.Wrapper.Style}">
+                        <Grid x:ConnectionId='1' Style="{StaticResource Grid.ListViewItem.Wrapper.Style}"                             >
 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto" />

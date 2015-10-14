@@ -1,11 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="TeamMembers" />
     <RootPropertyPathName Name="Profile" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ImageSmallUrl" />
+    <RootPropertyPathName Name="Color" />
+    <RootPropertyPathName Name="IsBot" />
+    <RootPropertyPathName Name="IsUltraRestricted" />
+    <RootPropertyPathName Name="IsRestricted" />
+    <RootPropertyPathName Name="IsPrimaryOwner" />
+    <RootPropertyPathName Name="IsOwner" />
+    <RootPropertyPathName Name="IsAdmin" />
+    <RootPropertyPathName Name="RealNameNormalized" />
+    <RootPropertyPathName Name="ImageLargeUrl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -25,6 +37,10 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Style" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Tapped" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -39,12 +55,16 @@
       <RootProperty Name="Child" />
       <RootProperty Name="Background" />
       <RootProperty Name="Style" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Converter" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
@@ -64,17 +84,30 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Style" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
     </RootType>
     <RootType FullName="SlackTeamMembers.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Data" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="SlackTeamMembers.ProfileDetails" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
+    <RootType FullName="SlackTeamMembers.Converters.ColorStringToColorConverter" />
+    <RootType FullName="SlackTeamMembers.Converters.GetForegroundFromProfileColorStringConverter" />
+    <RootType FullName="SlackTeamMembers.Converters.BooleanToVisibilityConverter" />
+    <RootType FullName="SlackTeamMembers.Converters.InvertedBooleanToVisibilityConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />
@@ -92,6 +125,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="MinHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Panel">
       <RootProperty Name="Background" />
@@ -99,6 +133,8 @@
     <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
       <RootProperty Name="StrokeThickness" />
       <RootProperty Name="Stroke" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.UIElement">
       <RootProperty Name="Opacity" />

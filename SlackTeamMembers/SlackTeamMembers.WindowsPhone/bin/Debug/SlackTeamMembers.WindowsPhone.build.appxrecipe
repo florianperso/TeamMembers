@@ -78,6 +78,9 @@
     <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\Brushes.xbf">
       <PackagePath>Styles\Brushes.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\Converters.xbf">
+      <PackagePath>Styles\Converters.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\Styles\DefaultStylesOverride.xbf">
       <PackagePath>Styles\DefaultStylesOverride.xbf</PackagePath>
     </AppxPackagedFile>
@@ -86,6 +89,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\ProfileDetails.xbf">
+      <PackagePath>ProfileDetails.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\florian\Documents\Visual Studio 2015\Projects\t\SlackTeamMembers\SlackTeamMembers\SlackTeamMembers.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
